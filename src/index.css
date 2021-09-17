@@ -4,3 +4,7 @@
     box-sizing: border-box;
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
