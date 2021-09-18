@@ -8,3 +8,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.MuiAvatar-root {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: white !important;
+    border: 1px solid gray;
+}
+
+.MuiSvgIcon-root {
+    color: gray;
+}
