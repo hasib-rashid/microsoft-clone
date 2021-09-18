@@ -27,7 +27,7 @@ const Header = () => {
             <div>
                 <nav>
                     <ul className="flex h-14 justify-center items-center">
-                        <li className="mx-4 text-sm">All Microsoft</li>
+                        <li className="mx-4 hover:border-black border-transparent border-b-2 hover:border-current text-sm">All Microsoft</li>
                         <li className="mx-4"><SearchIcon /></li>
                         <li className="mx-4"><LocalGroceryStoreOutlinedIcon /></li>
                         <li className="mx-4"><Avatar className="avatar" /></li>

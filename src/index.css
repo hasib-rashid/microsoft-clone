@@ -10,11 +10,16 @@
 @tailwind utilities;
 
 .MuiAvatar-root {
-    width: 30px;
-    height: 30px;
+    width: 27px !important;
+    height: 27px !important;
     background-color: white;
-    color: white !important;
+    color: white;
     border: 1px solid gray;
+}
+
+.MuiAvatar-colorDefault {
+    color: gray;
+    background-color: white !important;
 }
 
 .MuiSvgIcon-root {
