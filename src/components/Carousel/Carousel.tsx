@@ -39,12 +39,17 @@ const Simple = () => {
                 className="w-11/12 height-carousel"
             >
                 <div className="w-full h-full flex">
-                    <span className="carousel-span h-full w-2/4">Hello</span>
-                    <img className="w-2/4" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
+                    <span className="carousel-span h-full w-2/4 flex flex-col justify-center items-center">
+                        <div>
+                            <h2>Surface Laptop Go</h2>
+                            <p>Make the most of every day with our lightest Surface laptop</p>
+                        </div>
+                    </span>
+                    <img className="w-2/4 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
                 </div>
                 <div className="w-full h-full height-carousel flex">
                     <span className="carousel-span-2 h-full w-2/4">Hello</span>
-                    <img className="w-2/4 height-carousel h-full" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
+                    <img className="w-2/4 pointer-events-none height-carousel h-full" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
                 </div>
             </Carousel>
         </div>
