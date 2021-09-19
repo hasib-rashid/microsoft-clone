@@ -1,6 +1,8 @@
 import Carousel from "react-multi-carousel";
-
 import "react-multi-carousel/lib/styles.css";
+
+// Icons
+import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
 const responsive = {
     desktop: {
@@ -40,9 +42,13 @@ const Simple = () => {
             >
                 <div className="w-full h-full flex">
                     <span className="carousel-span h-full w-2/4 flex flex-col justify-center items-center">
-                        <div>
-                            <h2>Surface Laptop Go</h2>
+                        <div className="ml-20">
+                            <h2 className="text-2xl font-semibold">Surface Laptop Go</h2>
                             <p>Make the most of every day with our lightest Surface laptop</p>
+                            <button className="button-carousel flex bg-black text-white my-4 px-5 py-2">
+                                <p>Shop Now</p>
+                                <KeyboardArrowRightIcon className="" />
+                            </button>
                         </div>
                     </span>
                     <img className="w-2/4 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
