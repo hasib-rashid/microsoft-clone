@@ -34,7 +34,7 @@ const Simple = () => {
                 responsive={responsive}
                 infinite={true}
                 autoPlaySpeed={5000}
-                // autoPlay
+                autoPlay
                 keyBoardControl={true}
                 transitionDuration={500}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -54,7 +54,16 @@ const Simple = () => {
                     <img className="w-2/4 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
                 </div>
                 <div className="w-full h-full height-carousel flex">
-                    <span className="carousel-span-2 h-full w-2/4">Hello</span>
+                    <span className="carousel-span-2 h-full w-2/4 flex flex-col justify-center items-center">
+                        <div className="ml-20">
+                            <h2 className="text-2xl font-semibold">Surface Laptop Go</h2>
+                            <p>Make the most of every day with our lightest Surface laptop</p>
+                            <button className="button-carousel flex bg-black text-white my-4 px-5 py-2">
+                                <p>Shop Now</p>
+                                <KeyboardArrowRightIcon className="" />
+                            </button>
+                        </div>
+                    </span>
                     <img className="w-2/4 pointer-events-none height-carousel h-full" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
                 </div>
             </Carousel>
