@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 
 function App() {
     return (
-        <main>
+        <main className="w-screen h-screen">
             <Header />
             <Carousel />
         </main>

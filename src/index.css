@@ -32,4 +32,15 @@
 
 .carousel-span {
     background-color: #f3f3f3;
+    height: 100%;
+}
+
+.carousel-span-2 {
+    background-color: #e7e7e7;
+    margin: 0;
+    border: 1px solid #e7e7e7;
+}
+
+.height-carousel {
+    height: 65vh;
 }

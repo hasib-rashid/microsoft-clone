@@ -32,19 +32,19 @@ const Simple = () => {
                 responsive={responsive}
                 infinite={true}
                 autoPlaySpeed={5000}
-                autoPlay
+                // autoPlay
                 keyBoardControl={true}
                 transitionDuration={500}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                className="w-11/12"
+                className="w-11/12 height-carousel"
             >
-                <div className="w-full flex">
+                <div className="w-full h-full flex">
                     <span className="carousel-span h-full w-2/4">Hello</span>
                     <img className="w-2/4" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
                 </div>
-                <div>
-                    <span className="carousel-span"></span>
-                    <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
+                <div className="w-full h-full height-carousel flex">
+                    <span className="carousel-span-2 h-full w-2/4">Hello</span>
+                    <img className="w-2/4 height-carousel h-full" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
                 </div>
             </Carousel>
         </div>
