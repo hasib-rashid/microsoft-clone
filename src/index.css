@@ -61,3 +61,24 @@
 .button-carousel:hover .MuiSvgIcon-root {
     margin-left: 6px;
 }
+
+.react-multi-carousel-dot {
+    height: 30px;
+}
+
+.react-multi-carousel-dot button {
+    display: inline-block;
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 50%;
+    opacity: 1;
+    padding: 5px 5px 5px 5px;
+    box-shadow: none;
+    transition: background .5s;
+    border: 1px solid black !important;
+    padding: 0;
+    margin: 0;
+    margin-right: 6px;
+    outline: 0;
+    cursor: pointer;
+}

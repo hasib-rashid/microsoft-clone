@@ -34,7 +34,7 @@ const Simple = () => {
                 responsive={responsive}
                 infinite={true}
                 autoPlaySpeed={5000}
-                autoPlay
+                // autoPlay
                 keyBoardControl={true}
                 transitionDuration={500}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
