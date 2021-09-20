@@ -47,7 +47,7 @@ const DesktopCarousel = () => {
                             <p>Make the most of every day with our lightest Surface laptop</p>
                             <button className="button-carousel flex bg-black text-white my-4 px-5 py-2">
                                 <p>Shop Now</p>
-                                <KeyboardArrowRightIcon className="" />
+                                <KeyboardArrowRightIcon />
                             </button>
                         </div>
                     </span>
