@@ -46,6 +46,10 @@
     height: 58vh;
 }
 
+.item {
+    width: 184px;
+}
+
 .button-carousel p {
     transition: all 0.3s ease-in-out;
 }
