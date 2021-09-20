@@ -24,7 +24,7 @@ const responsive = {
 
 // Because this is an inframe, so the SSR mode doesn't not do well here.
 // It will work on real devices.
-const Simple = () => {
+const DesktopCarousel = () => {
     return (
         <div className="flex justify-center items-center">
             <Carousel
@@ -71,4 +71,4 @@ const Simple = () => {
     );
 };
 
-export default Simple
+export default DesktopCarousel
