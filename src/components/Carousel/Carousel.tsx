@@ -12,7 +12,7 @@ const responsive = {
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 2,
+        items: 1,
         paritialVisibilityGutter: 50
     },
     mobile: {
@@ -41,8 +41,8 @@ const Simple = () => {
                 className="w-11/12 height-carousel"
             >
                 <div className="w-full h-full flex">
-                    <span className="carousel-span h-full w-3/6 flex flex-col justify-center items-center">
-                        <div className="ml-20">
+                    <span className="carousel-span h-full w-2/5 flex flex-col justify-center items-center">
+                        <div className="ml-28">
                             <h2 className="text-2xl font-semibold">Surface Laptop Go</h2>
                             <p>Make the most of every day with our lightest Surface laptop</p>
                             <button className="button-carousel flex bg-black text-white my-4 px-5 py-2">
@@ -51,7 +51,7 @@ const Simple = () => {
                             </button>
                         </div>
                     </span>
-                    <img className="w-3/6 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
+                    <img className="w-3/5 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
                 </div>
                 <div className="w-full h-full height-carousel flex">
                     <span className="carousel-span-2 h-full w-2/4 flex flex-col justify-center items-center">
