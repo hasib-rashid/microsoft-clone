@@ -34,7 +34,7 @@ const DesktopCarousel = () => {
                 responsive={responsive}
                 infinite={true}
                 autoPlaySpeed={5000}
-                // autoPlay
+                autoPlay
                 keyBoardControl={true}
                 transitionDuration={500}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -53,7 +53,7 @@ const DesktopCarousel = () => {
                     </span>
                     <img className="w-3/5 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
                 </div>
-                <div className="w-full h-full height-carousel flex">
+                <div className="w-full h-full flex">
                     <span className="carousel-span-2 h-full w-2/4 flex flex-col justify-center items-center">
                         <div className="ml-20">
                             <h2 className="text-2xl font-semibold">Surface Laptop Go</h2>
@@ -64,7 +64,7 @@ const DesktopCarousel = () => {
                             </button>
                         </div>
                     </span>
-                    <img className="w-3/6 pointer-events-none height-carousel h-full" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
+                    <img className="w-3/6 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
                 </div>
             </Carousel>
         </div>
