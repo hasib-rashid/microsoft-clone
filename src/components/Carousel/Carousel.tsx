@@ -1,6 +1,7 @@
 import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import DesktopCarousel from "./pages/DesktopCarousel";
+import TabletCarousel from './pages/TabletCarousel';
 
 const Simple = () => {
     const isDesktopOrLaptop = useMediaQuery({
@@ -12,8 +13,8 @@ const Simple = () => {
     return (
         <div>
             {isDesktopOrLaptop && <DesktopCarousel />}
+            {isTablet && <TabletCarousel />}
             {isMobile && <p>You are a mobile phone</p>}
-            {isTablet && <p>You are a tablet</p>}
         </div>
     );
 };
