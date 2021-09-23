@@ -14,7 +14,7 @@ const Simple = () => {
         <div>
             {isDesktopOrLaptop && <DesktopCarousel />}
             {isTablet && <TabletCarousel />}
-            {isMobile && <p>You are a mobile phone</p>}
+            {isMobile && <TabletCarousel />}
         </div>
     );
 };

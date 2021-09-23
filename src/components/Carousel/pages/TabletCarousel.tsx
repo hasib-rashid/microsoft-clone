@@ -43,7 +43,7 @@ const TabletCarousel = () => {
                 <div className="w-full h-full flex flex-col">
                     <img className="w-screen pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4G1h6?ver=151f&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=800&y=224&s=1320&d=742&aim=true" alt="ligon deez" />
                     <span className="carousel-span h-5/6 w-screen flex flex-col justify-center items-center">
-                        <div className="">
+                        <div className="m-4">
                             <h2 className="text-2xl font-semibold">Surface Laptop Go</h2>
                             <p>Make the most of every day with our lightest Surface laptop</p>
                             <button className="button-carousel flex bg-black text-white my-4 px-5 py-2">
@@ -55,9 +55,9 @@ const TabletCarousel = () => {
                     </span>
                 </div>
                 <div className="w-full h-full flex flex-col">
-                    <img className="w-3/6 pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
-                    <span className="carousel-span-2 h-full w-2/4 flex flex-col justify-center items-center">
-                        <div className="ml-20">
+                    <img className="w-screen pointer-events-none" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3NR20?ver=7bd2&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=861&y=302&s=1119&d=629&aim=true" alt="ligon deez" />
+                    <span className="carousel-span-2 h-full w-screen flex flex-col justify-center items-center">
+                        <div className="m-4">
                             <h2 className="text-2xl font-semibold">Surface Laptop Go</h2>
                             <p>Make the most of every day with our lightest Surface laptop</p>
                             <button className="button-carousel flex bg-black text-white my-4 px-5 py-2">
