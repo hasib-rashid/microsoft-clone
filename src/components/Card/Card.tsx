@@ -1,9 +1,19 @@
 import React from 'react'
 
-const Card = () => {
+interface CardInterface {
+    image: string,
+    toptext: string,
+    title: string,
+    description: string
+}
+
+const Card = ({ image, toptext, title, description }: CardInterface) => {
     return (
         <div>
-
+            <img src={image} alt="card-img" />
+            <p>{toptext}</p>
+            <h1>{title}</h1>
+            <p>{description}</p>
         </div>
     )
 }
