@@ -1,3 +1,4 @@
+import Cards from 'components/Card/Cards';
 import Items from 'components/Items/Items';
 import React from 'react';
 import Carousel from './components/Carousel/Carousel';
@@ -9,6 +10,7 @@ function App() {
             <Header />
             <Carousel />
             <Items />
+            <Cards />
         </main>
     );
 }
