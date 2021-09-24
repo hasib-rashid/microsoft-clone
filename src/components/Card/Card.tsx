@@ -15,7 +15,7 @@ const Card = ({ image, toptext, title, description }: CardInterface) => {
             <br />
             <p className="bg-yellow-400 px-4 flex justify-center items-center">{toptext}</p>
             <h1 className="text-lg font-medium pt-1">{title}</h1>
-            {description}
+            <p className="text-left">{description}</p>
             <div className="text-blue-900">
                 <button>Pre-order now</button>
                 <KeyboardArrowRightIcon />

@@ -1,5 +1,6 @@
 import Cards from 'components/Card/Cards';
 import Items from 'components/Items/Items';
+import Showcase from 'components/Showcase/Showcase';
 import React from 'react';
 import Carousel from './components/Carousel/Carousel';
 import Header from './components/Header/Header';
@@ -11,6 +12,7 @@ function App() {
             <Carousel />
             <Items />
             <Cards />
+            <Showcase />
         </main>
     );
 }
