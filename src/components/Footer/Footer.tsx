@@ -3,55 +3,55 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <section className="links">
+            <section className="links mt-10">
                 <div className="links-inner">
                     <ul>
-                        <li><h3>What's New</h3></li>
-                        <li><a href="#">Surface Pro X</a></li>
-                        <li><a href="#">Surface Laptop 3</a></li>
-                        <li><a href="#">Surface Pro 7</a></li>
-                        <li><a href="#">Windows 10 apps</a></li>
-                        <li><a href="#">Office apps</a></li>
+                        <li><h3 className="font-semibold text-base mb-2">What's New</h3></li>
+                        <li>Surface Pro X</li>
+                        <li>Surface Laptop 3</li>
+                        <li>Surface Pro 7</li>
+                        <li>Windows 10 apps</li>
+                        <li>Office apps</li>
                     </ul>
                     <ul>
-                        <li><h3>Microsoft Store</h3></li>
-                        <li><a href="#">Account Profile</a></li>
-                        <li><a href="#">Download Center</a></li>
-                        <li><a href="#">Microsoft Store support</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Older tracking</a></li>
+                        <li><h3 className="font-semibold text-base mb-2">Microsoft Store</h3></li>
+                        <li>Account Profile</li>
+                        <li>Download Center</li>
+                        <li>Microsoft Store support</li>
+                        <li>Returns</li>
+                        <li>Older tracking</li>
                     </ul>
                     <ul>
-                        <li><h3>Education</h3></li>
-                        <li><a href="#">Microsfot in education</a></li>
-                        <li><a href="#">Office for students</a></li>
-                        <li><a href="#">Office 365 for schools</a></li>
-                        <li><a href="#">Deals for studentss</a></li>
-                        <li><a href="#">Microsfot Azure</a></li>
+                        <li><h3 className="font-semibold text-base mb-2">Education</h3></li>
+                        <li>Microsfot in education</li>
+                        <li>Office for students</li>
+                        <li>Office 365 for schools</li>
+                        <li>Deals for studentss</li>
+                        <li>Microsfot Azure</li>
                     </ul>
                     <ul>
-                        <li><h3>Enterprise</h3></li>
-                        <li><a href="#">Azure</a></li>
-                        <li><a href="#">AppSource</a></li>
-                        <li><a href="#">Automotive</a></li>
-                        <li><a href="#">Government</a></li>
-                        <li><a href="#">Healthcare</a></li>
+                        <li><h3 className="font-semibold text-base mb-2">Enterprise</h3></li>
+                        <li>Azure</li>
+                        <li>AppSource</li>
+                        <li>Automotive</li>
+                        <li>Government</li>
+                        <li>Healthcare</li>
                     </ul>
                     <ul>
-                        <li><h3>Developer</h3></li>
-                        <li><a href="#">Visual Studio</a></li>
-                        <li><a href="#">Windowszs Dev Center</a></li>
-                        <li><a href="#">Developer Network</a></li>
-                        <li><a href="#">TechNet</a></li>
-                        <li><a href="#">Microsoft Developer</a></li>
+                        <li><h3 className="font-semibold text-base mb-2">Developer</h3></li>
+                        <li>Visual Studio</li>
+                        <li>Windowszs Dev Center</li>
+                        <li>Developer Network</li>
+                        <li>TechNet</li>
+                        <li>Microsoft Developer</li>
                     </ul>
                     <ul>
-                        <li><h3>Company</h3></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">About Microsoft</a></li>
-                        <li><a href="#">Company news</a></li>
-                        <li><a href="#">Privacy at Microsoft</a></li>
-                        <li><a href="#">Inverstors</a></li>
+                        <li><h3 className="font-semibold text-base mb-2">Company</h3></li>
+                        <li>Careers</li>
+                        <li>About Microsoft</li>
+                        <li>Company news</li>
+                        <li>Privacy at Microsoft</li>
+                        <li>Inverstors</li>
                     </ul>
                 </div>
             </section>
@@ -60,14 +60,14 @@ const Footer = () => {
                 <div className="footer-inner">
                     <div><i className="fas fa-globe fa-2x"></i> English (United States)</div>
                     <ul>
-                        <li><a href="#">Sitemap</a></li>
-                        <li><a href="#">Contact Microsoft</a></li>
-                        <li><a href="#">Privacy & cookies</a></li>
-                        <li><a href="#">Terms of use</a></li>
-                        <li><a href="#">Trademarks</a></li>
-                        <li><a href="#">Safety & eco</a></li>
-                        <li><a href="#">About our ads</a></li>
-                        <li><a href="#">&copy; Microsoft 2020</a></li>
+                        <li>Sitemap</li>
+                        <li>Contact Microsoft</li>
+                        <li>Privacy & cookies</li>
+                        <li>Terms of use</li>
+                        <li>Trademarks</li>
+                        <li>Safety & eco</li>
+                        <li>About our ads</li>
+                        <li>&copy; Microsoft 2020</li>
                     </ul>
                 </div>
             </footer>
