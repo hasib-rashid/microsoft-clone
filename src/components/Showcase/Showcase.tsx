@@ -1,4 +1,5 @@
 import React from 'react'
+import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
 const Showcase = () => {
     return (
@@ -9,9 +10,11 @@ const Showcase = () => {
                 <div>
                     <button>
                         <p>For Up to 6 people</p>
+                        <KeyboardArrowRightIcon />
                     </button>
                     <button>
                         <p>For 1 person</p>
+                        <KeyboardArrowRightIcon />
                     </button>
                 </div>
             </section>
