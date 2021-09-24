@@ -6,15 +6,15 @@ const Showcase = () => {
         <main className="flex justify-center items-center">
             <article className="flex w-11/12 h-96 justify-center items-center mt-10 bg-gray-200">
                 <section className="w-2/4 flex justify-center items-center">
-                    <div className="w-5/6 ml-20">
+                    <div className="w-5/6 ml-12">
                         <h1 className="text-2xl font-medium">Microsoft 365</h1>
                         <p className="mt-5">Premium Office apps, extra cloud storage, advanced security, and more—all in one convenient subscription</p>
-                        <div>
-                            <button>
+                        <div className="mt-6 flex">
+                            <button className="bg-black text-white flex justify-center items-center px-4 h-9">
                                 <p>For Up to 6 people</p>
                                 <KeyboardArrowRightIcon />
                             </button>
-                            <button>
+                            <button className="bg-transparent text-black font-semibold flex justify-center items-center px-4 h-9 ml-4">
                                 <p>For 1 person</p>
                                 <KeyboardArrowRightIcon />
                             </button>
