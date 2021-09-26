@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <section className="links mt-10">
+            <section className="flex flex-col links mt-10 md:flex-col">
                 <div className="links-inner">
                     <ul>
                         <li><h3 className="font-semibold text-base mb-2">What's New</h3></li>
