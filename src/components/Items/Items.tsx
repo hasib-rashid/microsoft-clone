@@ -19,7 +19,7 @@ const Items = () => {
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rriw?ver=b2d5&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Shop Business" />
             </div>
             }
-            {isTablet && <div className="flex flex-col justify-center items-center h-5/6">
+            {isTablet && <div className="flex flex-col justify-center items-center h-5/6 p-10">
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Choose your Microsoft 365" />
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pndL?ver=5217&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Shop Surface Devices" />
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pxBu?ver=eae5&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Buy Xbox games and consoles" />
@@ -28,7 +28,7 @@ const Items = () => {
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rriw?ver=b2d5&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Shop Business" />
             </div>
             }
-            {isMobile && <div className="flex flex-col justify-center items-center h-5/6">
+            {isMobile && <div className="flex flex-col justify-center items-center h-5/6 p-10">
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Choose your Microsoft 365" />
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pndL?ver=5217&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Shop Surface Devices" />
                 <Item img="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pxBu?ver=eae5&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true" description="Buy Xbox games and consoles" />
