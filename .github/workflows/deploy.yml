@@ -1,22 +1,18 @@
-name: Deploys on Push on Master
+name: Deploy on Push
 on:
-  push:
+ 	push:
     branches: [ master ]
 
   workflow_dispatch:
-		jobs:
-			build:
-				runs-on: ubuntu-latest
-				steps:
-					- uses: actions/checkout@v2
-					- name: 👑 Install
-						run: yarn ci
-						
-					- name: 📰 Lint
-						run: yarn lint:fix
-					
-					- name: 📚 Build
-						run: yarn build
-          
-          -name: 🚀 Deploy
-            run: yarn deploy
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: 👑 Install
+        run: yarn ci
+      - name: ❤ Lint
+        run: npm run lint:fix
+      - name: 🚀 Deploy
+        run: yarn deploy
+				
