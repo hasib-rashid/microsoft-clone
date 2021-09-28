@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: 👑 Install
-        run: yarn ci
+        run: yarn install --frozen-lockfile
       - name: ❤ Lint
         run: npm run lint:fix
       - name: 🚀 Deploy
