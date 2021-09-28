@@ -1,8 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Deploy to gh-pages
-
-# Controls when the action will run. 
+name: Lints on Pull Request on Master Branch
 on:
   pull_request:
     branches: [ master ]
@@ -21,4 +17,3 @@ on:
 					
 					- name: 🚀 Build
 						run: yarn build
-						
