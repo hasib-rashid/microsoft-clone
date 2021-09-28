@@ -4,19 +4,21 @@ name: Deploy to gh-pages
 
 # Controls when the action will run. 
 on:
- 	push:
+  pull_request:
     branches: [ master ]
+
   workflow_dispatch:
-	jobs:
-		build:
-			runs-on: ubuntu-latest
-			steps:
-				- uses: actions/checkout@v2
-				- name: Install
-					run: yarn ci
+		jobs:
+			build:
+				runs-on: ubuntu-latest
+				steps:
+					- uses: actions/checkout@v2
+					- name: 👑 Install
+						run: yarn ci
+						
+					- name: 📰 Lint
+						run: yarn lint:fix
 					
-				- name: Lint
-					run: yarn lint:fix
-				
-				- name: Build
-					run: yarn build
+					- name: 🚀 Build
+						run: yarn build
+						

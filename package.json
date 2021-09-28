@@ -30,7 +30,8 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint:fix": "npx eslint --fix --max-warnings 0 src"
   },
   "eslintConfig": {
     "extends": [
